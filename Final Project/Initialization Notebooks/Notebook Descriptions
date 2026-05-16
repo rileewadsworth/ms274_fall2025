@@ -1,0 +1,7 @@
+In this folder I have the following initialization notebooks to produces files for the input folder in our model:
+
+Elkhorn Slough Model Grid- produces the model grid used in calculating the bathymetry and other initialization files
+Elkhorn Slough Bathymetry - produces the bathymetry.bin file 
+Elkhorn Slough Initial Condions- produces the THETA.IC, SALT.IC, and DO.IC files 
+Elkhorn Slough External Forcing- produces EXF files needed 
+Elkhorn Slough Boundary Conditions- produces OBCS files needed
