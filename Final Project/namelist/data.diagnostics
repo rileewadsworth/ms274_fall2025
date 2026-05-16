@@ -1,0 +1,25 @@
+# Diagnostic Package Choices
+
+ &diagnostics_list
+  dumpAtLast = .TRUE.,
+
+  fields(1:2,1) = 'THETA   ','SALT    ',
+  fileName(1) = 'diags/TS/TS',
+  frequency(1) = 86400.,
+
+  fields(1:2,2) = 'UVEL    ','VVEL    ',
+  fileName(2) = 'diags/VEL/VEL',
+  frequency(2) = 86400.,
+
+  fields(1,3) = 'ETAN    ',
+  fileName(3) = 'diags/ETAN/ETAN',
+  frequency(3) = 86400.,
+
+  fields(1,4) = 'TRAC01  ',
+  fileName(4) = 'diags/DO/DO',
+  frequency(4) = 86400.,
+
+ &
+ 
+ &DIAG_STATIS_PARMS
+ &

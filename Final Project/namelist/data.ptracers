@@ -1,0 +1,9 @@
+# Passive tracer package parameters
+ &PTRACERS_PARM01
+ PTRACERS_numInUse = 1,
+ PTRACERS_names(1) = 'DO',
+ PTRACERS_long_names(1) = 'dissolved oxygen',
+ PTRACERS_units(1) = 'mg/L',
+ PTRACERS_initialFile(1) = 'DO_IC.bin',
+ PTRACERS_advScheme(1) = 7,
+ /
